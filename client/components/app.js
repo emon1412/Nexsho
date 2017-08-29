@@ -1,7 +1,8 @@
 import react from 'react'
+import {} from 'dotenv/config'
 
 export default () => {
   return (
-    <h1>Hello</h1>
+    <div>Hello</div>
   )
 }
