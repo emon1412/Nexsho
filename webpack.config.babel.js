@@ -4,6 +4,7 @@ export default () => ({
   entry: './client/index.js',
   output: {
     filename: 'bundle.js',
+    publicPath: '/assets/'
     path: path.resolve(__dirname, 'dist')
   },
   module: {
