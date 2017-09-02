@@ -1,8 +1,10 @@
-import react from 'react'
+import { Component } from 'react'
 import {} from 'dotenv/config'
 
-export default () => {
-  return (
-    <div>Hello</div>
-  )
+export default class App extends {
+  render() {
+    return (
+      <div>Hello</div>
+    )
+  }
 }
